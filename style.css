@@ -23,9 +23,13 @@
 #d3{
 	width: 513px;
 	background: #777777;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	text-align: right;
+	padding-right: 10px;	
 }
 #d3 > p{
-	text-align: right;
 	font-family: Arial;
 	font-size: 14px;
 	line-height: 22px;
@@ -54,8 +58,7 @@
 	justify-content: space-between;
 	margin-right: 20px;
 }
-.center{
-}
+
 #d4{
 	align-self: flex-start;
 	width: 184px;
@@ -70,6 +73,7 @@
 	padding-left: 13px;
 }
 #d7{
+	margin-top: auto;
 	align-self: flex-end; 
 	height: 134px;
 	width: 184px;
